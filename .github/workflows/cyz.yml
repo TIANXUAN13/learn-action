@@ -1,0 +1,15 @@
+name: 测试action
+
+on: push
+
+jobs:
+    install http:
+        name: 安装http
+        runs-on: ubuntu:20.04
+    
+    steps:
+    - name: 安装http
+      run: apt-get install http
+    - name: 显示当前路径
+      run: pwd
+
