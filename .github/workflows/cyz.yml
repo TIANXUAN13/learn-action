@@ -3,7 +3,7 @@ name: 测试action
 on: push
 
 jobs:
-    install http:
+    install-http:
       name: http安装
       runs-on: ubuntu:20.04
     
