@@ -9,7 +9,7 @@ jobs:
     
       steps:
       - name: 安装http
-        run: apt-get install http
+        run: sudo apt-get update && sudo apt-get install -y apache2
       - name: 显示当前路径
         run: pwd
 
